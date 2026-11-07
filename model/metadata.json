@@ -1,0 +1,57 @@
+{
+  "dataset": "UCI Online Shoppers Purchasing Intention (id 468)",
+  "target": "Revenue",
+  "features": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "PageValues",
+    "BounceRates",
+    "ExitRates",
+    "SpecialDay",
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend"
+  ],
+  "positive_class": "Revenue = True (purchase)",
+  "train_rows": 9764,
+  "test_rows": 2441,
+  "random_state": 42,
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  },
+  "best_params": {
+    "Logistic Regression": {
+      "C": 1.0
+    },
+    "Decision Tree": {
+      "max_depth": 5,
+      "min_samples_leaf": 30
+    },
+    "KNN": {
+      "n_neighbors": 31,
+      "weights": "distance"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 0.1
+    },
+    "Support Vector Machine": {
+      "C": 2.0
+    }
+  },
+  "python": "3.12.13",
+  "sklearn": "1.9.1",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4"
+}
