@@ -60,7 +60,7 @@ Intention Dataset* (id 468), Sakar, Polat, Katircioglu & Kastro, 2018.
 
 ## c. GitHub Repository Link
 
-`<GITHUB REPO LINK>`
+https://github.com/Ja-yy/ml-assignment-2-online-shoppers
 
 ```
 ml-assignment-2-online-shoppers/
